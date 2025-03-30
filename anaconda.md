@@ -7,6 +7,7 @@ export  PATH=$PATH:/home/USERNAME/anaconda3/bin
 * source ~/.bashrc
 * source activate
 * source deactivate
-
+* pip config set global.index-url https://mirrors.aliyun.com/pypi/simple
+* pip config set install.trusted-host mirrors.aliyun.com
 
 
