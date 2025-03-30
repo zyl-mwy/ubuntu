@@ -31,7 +31,30 @@ from https://blog.csdn.net/u011278722/article/details/137673353
 
 * sudo curl -L https://raw.githubusercontent.com/docker/docker-ce/master/components/cli/contrib/completion/bash/docker -o /etc/bash_completion.d/docker.sh
 * wget https://raw.githubusercontent.com/docker/docker-ce/master/components/cli/contrib/completion/bash/docker -o docker.sh
-* 
+* 挂梯子下载好放在这
+
+* source docker.sh
+
+## 添加docker用户组
+* sudo groupadd docker
+
+## 将当前用户添加到用户组
+* sudo usermod -aG docker $USER
+
+## 使得权限生效
+* newgrp docker
+
+## .bashrc 添加内容
+```
+groupadd -f docker
+```
+* source .bashrc
+
+## 查看所有容器
+* docker ps -a
+
+
+
 
 
 * sudo docker pull ubuntu
