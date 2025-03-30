@@ -10,6 +10,7 @@
 
 ## apt/apt-get install/uninstall 
 * sudo apt-get install xxx
+* sudo apt install xxx
 * sudo apt remove xxx
 * sudo apt autoremove
 * sudo apt purge xxx
