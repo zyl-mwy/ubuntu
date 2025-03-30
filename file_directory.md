@@ -32,3 +32,16 @@
 ## 按行查看文件内容
 * head -n 10 file_name  # 查看前 10 行
 * tail -n 10 file_name  # 查看后 10 行
+
+## 清空终端
+* clear
+
+## 查找文件
+* find /path -name file_name
+
+## 搜索文本内容
+* grep "text" file_name
+* grep -r "text" directory_name  # 递归搜索
+
+## 创建符号链接
+* ln -s target_file link_name
