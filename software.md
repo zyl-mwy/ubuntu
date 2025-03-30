@@ -4,6 +4,12 @@
 * sudo apt-get update
 * sudo apt-get ungrade
 
+## fix
+* sudo apt --fix-broken install
+* sudo dpkg --configure -a
+* sudo apt clean
+* sudo apt autoclean
+
 ## from apt-get
 * htop
 * net-tools
