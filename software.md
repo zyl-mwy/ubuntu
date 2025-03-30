@@ -8,7 +8,7 @@
 * vim
 * g++
 * htop
-* ifconfig
+* net-tools
 * sudo apt install curl software-properties-common apt-transport-https ca-certificates
 
 ## apt/apt-get install/uninstall 
