@@ -11,5 +11,7 @@ export  PATH=$PATH:/home/USERNAME/anaconda3/bin
 * pip config set install.trusted-host mirrors.aliyun.com
 * sudo apt-get install nvidia-driver-535
 * sudo reboot
+* sudo apt install nvidia-cuda-toolkit
+* nvcc -V
 
 
