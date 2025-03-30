@@ -1,3 +1,5 @@
+from https://blog.csdn.net/u011278722/article/details/137673353
+
 ## 卸载默认
 * sudo apt-get remove docker docker-engine docker.io containerd runc
 
@@ -14,6 +16,7 @@
 
 ## 更新源
 * sudo apt update
+  
 * sudo apt-get update
 
 ## 安装docker
@@ -22,6 +25,13 @@
 * sudo docker version
 
 * sudo systemctl status docker
+
+## 安装Docker 命令补全工具
+* sudo apt-get install bash-completion
+
+* sudo curl -L https://raw.githubusercontent.com/docker/docker-ce/master/components/cli/contrib/completion/bash/docker -o /etc/bash_completion.d/docker.sh
+                        
+
 
 * sudo docker pull ubuntu
 * 
