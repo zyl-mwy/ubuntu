@@ -5,11 +5,55 @@
 * sudo apt-get ungrade
 
 ## from apt-get
-* vim
-* g++
 * htop
 * net-tools
 * sudo apt install curl software-properties-common apt-transport-https ca-certificates
+* wget
+* tree
+* tmux 终端复用
+* screen 终端会话管理
+  
+* git
+* build-essential
+* cmake
+* python3-pip
+* g++
+* openjdk-11-jdk
+* openjdk-17-jdk
+* nodejs npm
+
+* openssh-server
+* nmap 网络扫描工具
+* traceroute
+* telnet
+* dnsutils DNS工具
+
+* vim
+* nano
+* emacs
+
+* zip unzip
+* tar
+* rar unrar
+* p7zip-full
+
+* ffmpeg
+* vlc
+* imagemagick
+
+* docker.io
+* virtualbox
+
+* firefox
+* chromium-browser
+
+* gparted 磁盘分区
+* neofetch 系统信息展示工具
+* rsync 文件同步工具
+* jq 格式化工具
+
+* octave 开源的 MATLAB 替代工具
+* r-base
 
 ## apt/apt-get install/uninstall 
 * sudo apt search xxx
