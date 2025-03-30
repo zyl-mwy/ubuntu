@@ -3,6 +3,8 @@
 * sudo gedit ~/.bashrc
 ```
 export  PATH=$PATH:/home/USERNAME/anaconda3/bin
+# 初始化 Conda
+source ~/anaconda3/bin/activate
 ```
 * source ~/.bashrc
 * source activate
