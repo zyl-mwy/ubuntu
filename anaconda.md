@@ -5,6 +5,8 @@
 export  PATH=$PATH:/home/USERNAME/anaconda3/bin
 ```
 * source ~/.bashrc
+* source activate
+* source deactivate
 
 
 
