@@ -30,7 +30,8 @@ from https://blog.csdn.net/u011278722/article/details/137673353
 * sudo apt-get install bash-completion
 
 * sudo curl -L https://raw.githubusercontent.com/docker/docker-ce/master/components/cli/contrib/completion/bash/docker -o /etc/bash_completion.d/docker.sh
-                        
+* wget https://raw.githubusercontent.com/docker/docker-ce/master/components/cli/contrib/completion/bash/docker -o docker.sh
+* 
 
 
 * sudo docker pull ubuntu
