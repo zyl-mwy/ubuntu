@@ -12,6 +12,7 @@
 * sudo apt install curl software-properties-common apt-transport-https ca-certificates
 
 ## apt/apt-get install/uninstall 
+* sudo apt search xxx
 * sudo apt-get install xxx
 * sudo apt install xxx
 * sudo apt remove xxx
