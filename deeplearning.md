@@ -1,1 +1,2 @@
-
+## see hardware
+* nvidia-smi
