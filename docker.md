@@ -1,1 +1,2 @@
-
+* sudo docker pull ubuntu
+* 
