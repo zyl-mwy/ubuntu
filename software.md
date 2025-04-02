@@ -18,6 +18,7 @@
 * tree
 * tmux 终端复用
 * screen 终端会话管理
+* chromium-browser
   
 * git
 * build-essential
