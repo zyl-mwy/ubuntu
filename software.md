@@ -63,7 +63,8 @@
 * r-base
 
 * stacer https://github.com/oguzhaninan/Stacer/releases 清理
-* 
+* synaptic sudo apt install -y synaptic 软件管理
+
 
 ## apt/apt-get install/uninstall 
 * sudo apt search xxx
