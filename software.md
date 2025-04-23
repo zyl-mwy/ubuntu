@@ -62,6 +62,9 @@
 * octave 开源的 MATLAB 替代工具
 * r-base
 
+* stacer https://github.com/oguzhaninan/Stacer/releases 清理
+* 
+
 ## apt/apt-get install/uninstall 
 * sudo apt search xxx
 * sudo apt-get install xxx
