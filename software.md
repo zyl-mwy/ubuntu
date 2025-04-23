@@ -65,6 +65,7 @@
 * stacer https://github.com/oguzhaninan/Stacer/releases 清理
 * synaptic sudo apt install -y synaptic 软件管理
 * 星火应用商店
+* plasma-discover 商店
 
 
 ## apt/apt-get install/uninstall 
