@@ -26,3 +26,4 @@ git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1
 * ls *sh
 * ./install.sh --help
 * ./install.sh -a normal -m -N stable -l --round -t all
+* sudo ./tweaks.sh -g
