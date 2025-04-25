@@ -5,3 +5,4 @@ https://www.bilibili.com/video/BV1qNd4YSEMS/?spm_id_from=333.337.search-card.all
 * sudo apt install flatpak -y
 * flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 * sudo reboot now
+* https://www.pling.com/p/1102582
