@@ -38,3 +38,10 @@ search light
 gnome 4x ui improvements
 quick settings tweaker
 ```
+```
+打开优化/tweaks
+外观中
+图标：Cupertino-Sonoma
+Shell：WhiteSur-Dark-solid
+过时应用程序：WhiteSur-Dark-solid
+```
