@@ -6,3 +6,7 @@ https://www.bilibili.com/video/BV1qNd4YSEMS/?spm_id_from=333.337.search-card.all
 * flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 * sudo reboot now
 * https://www.pling.com/p/1102582
+```
+下载file的第一个，然后解压剪切到home下的自己建立的.icons(ctrl+H)文件夹
+```
+
