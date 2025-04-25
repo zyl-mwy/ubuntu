@@ -36,4 +36,5 @@ git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1
 user themes
 search light
 gnome 4x ui improvements
+quick settings tweaker
 ```
