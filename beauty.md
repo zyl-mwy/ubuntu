@@ -22,3 +22,4 @@ https://www.bilibili.com/video/BV1qNd4YSEMS/?spm_id_from=333.337.search-card.all
 复制命令
 git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1
 ```
+cd WhiteSur-gtk-theme/
