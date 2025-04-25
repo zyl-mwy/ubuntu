@@ -33,4 +33,5 @@ git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1
 打开扩展管理器
 点击浏览
 搜到安装blur my shell
+user themes
 ```
