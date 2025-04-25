@@ -67,3 +67,8 @@ Shell：WhiteSur-Dark-solid
 右击桌面-更改背景
 ```
 * gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize-or-previews'
+```
+下载拓展
+compiz windows effect
+compiz alike magic lamp effect
+```
