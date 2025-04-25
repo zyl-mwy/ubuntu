@@ -71,4 +71,13 @@ Shell：WhiteSur-Dark-solid
 下载拓展
 compiz windows effect
 compiz alike magic lamp effect
+coverflow alt-tab
+```
+```
+设置coverflow alt-tab拓展
+  一般
+    样式-时间轴
+  图标
+    应用图标风格-已吸附
+    叠加图标大小-256
 ```
