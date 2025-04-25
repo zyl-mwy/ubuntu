@@ -13,4 +13,5 @@ https://www.bilibili.com/video/BV1qNd4YSEMS/?spm_id_from=333.337.search-card.all
 下载file的第一个，然后解压剪切到home下的自己建立的.icons(ctrl+H)文件夹
 ```
 * git clone https://github.com/vinceliuice/WhiteSur-wallpapers.git
+* cd WhiteSur-wallpapers/
 
