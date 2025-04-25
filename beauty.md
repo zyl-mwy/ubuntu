@@ -46,4 +46,22 @@ Shell：WhiteSur-Dark-solid
 过时应用程序：WhiteSur-Dark-solid
 窗口中
 标题栏按钮-放置-左
+点击行为-居中显示新窗口-选中
 ```
+```
+打开拓展管理器
+设置 blur my shell
+  面板-管线-default rounded
+设置 search light
+  general
+    search-ctrl+空格
+    currency conversion-勾选
+    unit conversion-勾选
+    icon-勾选
+  appearance
+    width-0.26
+    height-0.40
+    border radius-最大
+    
+```
+
