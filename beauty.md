@@ -28,3 +28,4 @@ git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1
 * ./install.sh -a normal -m -N stable -l --round -t all
 * sudo ./tweaks.sh -g
 * ./tweaks.sh -F -f default
+* sudo flatpak override --filesystem=xdg-config/gtk-4.0
