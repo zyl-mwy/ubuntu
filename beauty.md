@@ -24,4 +24,5 @@ git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1
 ```
 * cd WhiteSur-gtk-theme/
 * ls *sh
-* ./install.sh
+* ./install.sh --help
+* ./install.sh -a normal -m -N stable -l --round -t all
