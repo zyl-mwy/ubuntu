@@ -44,4 +44,6 @@ quick settings tweaker
 图标：Cupertino-Sonoma
 Shell：WhiteSur-Dark-solid
 过时应用程序：WhiteSur-Dark-solid
+窗口中
+标题栏按钮-放置-左
 ```
