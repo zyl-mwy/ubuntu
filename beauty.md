@@ -16,4 +16,5 @@ https://www.bilibili.com/video/BV1qNd4YSEMS/?spm_id_from=333.337.search-card.all
 * cd WhiteSur-wallpapers/
 * ls *sh
 * sudo ./install-gnome-backgrounds.sh
-* ./install-wallpapers.sh 
+* ./install-wallpapers.sh
+* https://github.com/vinceliuice/WhiteSur-gtk-theme?tab=readme-ov-file#readme
