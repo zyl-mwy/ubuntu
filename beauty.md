@@ -35,4 +35,5 @@ git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1
 搜到安装blur my shell
 user themes
 search light
+gnome 4x ui improvements
 ```
