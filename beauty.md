@@ -62,6 +62,8 @@ Shell：WhiteSur-Dark-solid
     width-0.26
     height-0.40
     border radius-最大
-    
 ```
-
+```
+右击桌面-更改背景
+```
+* gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize-or-previews'
