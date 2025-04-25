@@ -77,6 +77,7 @@ coverflow alt-tab
 设置coverflow alt-tab拓展
   一般
     样式-时间轴
+    隐藏面板-取消选中
   图标
     应用图标风格-已吸附
     叠加图标大小-256
