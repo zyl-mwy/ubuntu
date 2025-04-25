@@ -15,4 +15,4 @@ https://www.bilibili.com/video/BV1qNd4YSEMS/?spm_id_from=333.337.search-card.all
 * git clone https://github.com/vinceliuice/WhiteSur-wallpapers.git
 * cd WhiteSur-wallpapers/
 * ls *sh
-* sudo install-gnome-backgrounds.sh
+* sudo ./install-gnome-backgrounds.sh
