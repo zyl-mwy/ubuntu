@@ -82,3 +82,7 @@ coverflow alt-tab
     应用图标风格-已吸附
     叠加图标大小-256
 ```
+```
+下载拓展
+dash to dock
+```
