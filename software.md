@@ -67,6 +67,9 @@
 * 星火应用商店
 * plasma-discover 商店
 
+* deborphan
+* GtkOrphan
+
 
 ## apt/apt-get install/uninstall 
 * sudo apt search xxx
