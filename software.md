@@ -108,6 +108,21 @@
 * sudo rm /etc/apt/sources.list.d/steam.list
 * sudo rm /etc/apt/trusted.gpg.d/steam.gpg  # 如果存在
 
+## uninstall wine
+* apt list --installed | sed -E 's|(.*)/.*|\1|' | grep -i wine
+* sudo apt purge
+* apt list --installed | sed -E 's|(.*)/.*|\1|' | grep -i wine
+* sudo -l | grep ^rc |awk '{print $2}' | sudo xargs dpkg -P
+* sudo apt autoremove 
+* sudo apt autoclean 
+* sudo apt clearn
+* dpkg -l|grep ^rc|awk '{print $2}' |sudo xargs dpkg -P
+​* rm -rfv ~/.wine
+* ls .local/share/applications/
+* ls .config/menus/applications-merged/
+* ls .local/share/icons/
+* sudo find / -name *wine*
+
 ## common
 * wps
 * bandizip
