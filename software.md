@@ -98,3 +98,20 @@
 * sudo dpkg --configure -a
 * sudo apt upgrade
 * sudo apt dist-upgrade
+
+## common
+* wps
+* bandizip
+* stacer
+* 星火应用商店
+* 应用管理器
+* 百度网盘
+* 嘉立创
+* 微信
+* edge
+* todesk
+* v2ray
+* vscode
+* vim
+* zotero
+* 亿图图示
