@@ -124,3 +124,4 @@
 * vim
 * zotero
 * 亿图图示
+* 7zip
