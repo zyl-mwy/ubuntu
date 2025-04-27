@@ -69,6 +69,7 @@
 
 * deborphan
 * GtkOrphan
+* gparted
 
 
 ## apt/apt-get install/uninstall 
