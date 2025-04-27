@@ -99,6 +99,15 @@
 * sudo apt upgrade
 * sudo apt dist-upgrade
 
+## uninstall steam
+* sudo apt remove --purge steam steam-launcher
+* sudo dpkg -r steam
+* rm -rf ~/.steam
+* rm -rf ~/.local/share/Steam
+* sudo rm -rf /usr/share/steam
+* sudo rm /etc/apt/sources.list.d/steam.list
+* sudo rm /etc/apt/trusted.gpg.d/steam.gpg  # 如果存在
+
 ## common
 * wps
 * bandizip
