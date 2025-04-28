@@ -144,7 +144,10 @@ hello world
 ],
 }
 ```
-
+* xelatex test.tex
+* bibtexx test.aux
+* xelatex test.tex
+* xelatex test.tex
 
 
 
