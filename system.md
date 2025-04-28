@@ -19,3 +19,6 @@
 * ps aux
 * top
 * htop  # 需要安装：sudo apt install htop
+
+## 文件管理器
+* nautilus
