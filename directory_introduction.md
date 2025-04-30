@@ -156,3 +156,61 @@ Ubuntu 的根目录遵循 **Filesystem Hierarchy Standard (FHS)** 标准，每�
   3. `/home`（用户数据）
 
 > 掌握这些目录结构，可以帮助您更高效地管理系统和排查问题！
+
+# Ubuntu `/sys` Directory: Purpose and Usage
+
+In Ubuntu (and other Linux systems), the `/sys` directory is a special virtual filesystem called **sysfs**. It's a mechanism provided by the kernel to expose kernel data structures, attributes, and operations to user space, allowing users and administrators to interact with hardware and kernel modules.
+
+---
+
+## **Primary Functions of `/sys`**
+
+1. **Exposes Kernel Device and Driver Information**  
+   `/sys` provides a structured view of hardware devices, drivers, and kernel modules. Examples:
+   - `/sys/class`: Devices categorized by type (e.g., network cards, GPUs, input devices).
+   - `/sys/devices`: Physical or virtual devices mapped from the kernel device tree.
+   - `/sys/bus`: Devices organized by bus type (e.g., PCI, USB, SATA).
+
+2. **Dynamic Device and Kernel Parameter Management**  
+   - Modify files in `/sys` to adjust kernel or device behavior (e.g., power management, performance settings).
+   - Example: Change CPU frequency governor:
+     ```bash
+     echo "powersave" | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+     ```
+
+3. **Supports `udev` and Hotplugging**  
+   - The `udev` device manager relies on `/sys` to dynamically create device nodes (e.g., `/dev/sda`).
+   - When a USB device is plugged in, the kernel notifies user space via `/sys`.
+
+4. **Unified Device Model**  
+   - Standardizes interfaces for tools like `lspci` and `lsusb` to access hardware info uniformly.
+
+---
+
+## **Common Subdirectories**
+
+| Directory             | Purpose                                                                 |
+|-----------------------|-------------------------------------------------------------------------|
+| `/sys/block`          | Info about block devices (e.g., disks, partitions).                    |
+| `/sys/class/net`      | Network interface details (e.g., `eth0`, `wlan0`).                     |
+| `/sys/power`          | Power management options (e.g., suspend, resume).                      |
+| `/sys/module`         | Configuration and status of loaded kernel modules.                      |
+| `/sys/firmware`       | BIOS/UEFI or firmware-related data (e.g., ACPI tables).                |
+
+---
+
+## **Difference Between `/sys` and `/proc`**
+- **`/proc`**: Focuses on processes and system runtime states (used by tools like `ps`, `top`).
+- **`/sys`**: Focuses on structured hardware/driver info (mounted as **sysfs**).
+
+---
+
+## **Important Notes**
+1. **Avoid Manual Edits**  
+   Modifying files in `/sys` without understanding their purpose may cause instability.
+2. **Temporary Changes**  
+   Changes to `/sys` are lost after reboot (use config files for persistence).
+3. **Debugging Tools**  
+   Commands like `udevadm`, `lshw`, and `lsblk` rely on `/sys` for data.
+
+For hardware queries, use tools like `lspci`, `lsusb`, or explore `/sys` directly.
