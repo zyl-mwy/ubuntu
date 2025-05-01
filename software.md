@@ -143,6 +143,17 @@ https://flathub.org/
 * sudo apt update
 * sudo snap remove wine-platform-runtime
 
+## uninstall snap-store
+* sudo snap remove snap-store
+* snap list
+* sudo snap remove <package-name>
+* sudo apt purge snapd
+* sudo rm -rf /var/snap /var/lib/snapd /var/cache/snapd /usr/lib/snapd ~/snap
+* sudo apt-mark hold snapd
+
+* sudo systemctl disable --now snapd.service snapd.socket snapd.seeded.service
+* sudo apt install --reinstall gnome-software
+
 ## common
 * wps
 * bandizip
