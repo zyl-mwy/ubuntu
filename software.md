@@ -126,6 +126,10 @@
 * ls .local/share/icons/
 * sudo find / -name *wine*
 
+* sudo rm /etc/apt/sources.list.d/winehq-*.list
+* sudo apt update
+* sudo snap remove wine-platform-runtime
+
 ## common
 * wps
 * bandizip
