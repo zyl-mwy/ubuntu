@@ -104,6 +104,7 @@ https://flathub.org/
 * snap-store
 * appimagelauncher
 * software-properties-gtk
+* gxde-app-upgrader
 
 * deborphan
 * GtkOrphan
