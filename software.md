@@ -52,6 +52,31 @@
 * virtualbox
 
 * firefox
+```
+sudo apt/snap remove firefox
+cd ~/Downloads
+tar -jxvf Firefox-latest-x86_64.tar.bz2
+sudo mv firefox /opt
+/opt/firefox/firefox
+cd /usr/share/applications
+sudo vi firefox.desktop
+
+[Desktop Entry]
+Name=firefox
+Name[zh_CN]=火狐浏览器
+Comment=火狐浏览器
+Exec=/opt/firefox/firefox
+Icon=/opt/firefox/browser/chrome/icons/default/default128.png
+Terminal=false
+Type=Application
+Categories=Application;
+Encoding=UTF-8
+StartupNotify=true
+
+ls /usr/share/applications/ | grep firefox
+sudo update-desktop-database
+gnome-shell --replace &
+```
 * chromium-browser
 
 * gparted 磁盘分区
