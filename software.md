@@ -170,6 +170,7 @@ https://flathub.org/
 * sudo snap remove wine-platform-runtime
 
 ## uninstall snap-store
+https://zhuanlan.zhihu.com/p/511438456
 * sudo snap remove snap-store
 * snap list
 * sudo snap remove <package-name>
@@ -179,6 +180,44 @@ https://flathub.org/
 
 * sudo systemctl disable --now snapd.service snapd.socket snapd.seeded.service
 * sudo apt install --reinstall gnome-software
+
+## uninstall snap
+* snap list
+
+* sudo snap remove --purge firefox
+* sudo snap remove --purge snap-store
+* sudo snap remove --purge gnome-3-38-2004
+* sudo snap remove --purge gtk-common-themes
+* sudo snap remove --purge snapd-desktop-integration
+* sudo snap remove --purge bare
+* sudo snap remove --purge core20
+* sudo snap remove --purge snapd
+
+* sudo apt remove --autoremove snapd
+
+* sudo gedit /etc/apt/preferences.d/nosnap.pref
+```
+Package: snapd
+Pin: release a=*
+Pin-Priority: -10
+```
+
+* sudo apt update
+
+* sudo apt install --install-suggests gnome-software
+
+* sudo add-apt-repository ppa:mozillateam/ppa
+* sudo apt update
+* sudo apt install -t 'o=LP-PPA-mozillateam' firefox
+
+* echo 'Unattended-Upgrade::Allowed-Origins:: "LP-PPA-mozillateam:${distro_codename}";' | sudo tee /etc/apt/apt.conf.d/51unattended-upgrades-firefox
+
+* sudo gedit /etc/apt/preferences.d/mozillateamppa
+```
+Package: firefox*
+Pin: release o=LP-PPA-mozillateam
+Pin-Priority: 501
+```
 
 ## common
 * wps
