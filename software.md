@@ -243,6 +243,8 @@ Pin-Priority: 501
 
 ## windows
 * win32diskmanager
+* rufus
 * office+visio
 * adobe
 * mathtype
+* 
