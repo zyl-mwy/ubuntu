@@ -234,10 +234,15 @@ Pin-Priority: 501
 * vscode
 * vim
 * zotero
-* 亿图图示
 * 7zip
 * virtualbox
 
 ## fast access
 * 全局菜单项：/usr/share/applications/
 * 个人菜单项：~/.local/share/applications/
+
+## windows
+* win32diskmanager
+* office+visio
+* adobe
+* mathtype
