@@ -220,22 +220,29 @@ Pin-Priority: 501
 ```
 
 ## common
+* latex
 * wps
 * bandizip
 * stacer
-* 星火应用商店
+* gparted
+* 星火应用商店/Synaptic Package Manager/discover/自带
 * 应用管理器
+* 拓展管理器
 * 百度网盘
 * 嘉立创
 * 微信
-* edge
+* edge/火狐
 * todesk
-* v2ray
+* v2raya
 * vscode
 * vim
 * zotero
 * 7zip
 * virtualbox
+* telegram
+* 视频
+* anaconda
+* timeshift
 
 ## fast access
 * 全局菜单项：/usr/share/applications/
