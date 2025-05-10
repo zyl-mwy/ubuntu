@@ -270,3 +270,4 @@ Pin-Priority: 501
 
 ## 常用软件打开命令
 * nautilus 文件管理器
+* gnome-control-center 设置
