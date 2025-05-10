@@ -244,6 +244,12 @@ Pin-Priority: 501
 * anaconda
 * timeshift
 
+## 系统安装
+* efi系统分区 500MB
+* swap 20GB/大于内存
+* /root/home
+* /
+
 ## fast access
 * 全局菜单项：/usr/share/applications/
 * 个人菜单项：~/.local/share/applications/
