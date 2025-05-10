@@ -267,4 +267,6 @@ Pin-Priority: 501
 * office+visio
 * adobe
 * mathtype
-* 
+
+## 常用软件打开命令
+* nautilus 文件管理器
