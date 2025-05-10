@@ -113,6 +113,13 @@ https://flathub.org/
 * EaseUS Partition Master
 * gparted
 
+## chinse
+* sudo apt update
+* sudo apt install ibus ibus-pinyin
+* im-config
+* 注销
+* 键盘布局
+
 
 ## apt/apt-get install/uninstall 
 * sudo apt search xxx
