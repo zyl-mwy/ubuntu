@@ -85,4 +85,5 @@ coverflow alt-tab
 ```
 下载拓展
 dash to dock
+network stats
 ```
