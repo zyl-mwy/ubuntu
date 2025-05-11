@@ -271,3 +271,9 @@ Pin-Priority: 501
 ## 常用软件打开命令
 * nautilus 文件管理器
 * gnome-control-center 设置
+
+## reset apt
+* sudo apt purge gnome-terminal -y  # 彻底删除配置和软件包
+* sudo apt autoremove -y  # 删除不再需要的依赖项
+* rm -rf ~/.config/dconf/user  # 重置 GNOME Terminal 配置（谨慎操作！）
+* sudo apt update && sudo apt install gnome-terminal -y
