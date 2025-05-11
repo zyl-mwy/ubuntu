@@ -10,7 +10,7 @@ https://bsdayo.moe/posts/ubuntu-desktop-mac-style/
 * sudo reboot now
 * https://www.pling.com/p/1102582
 ```
-下载file的第一个，然后解压剪切到home下的自己建立的.icons(ctrl+H)文件夹
+下载file的第一个，然后解压剪切到home/linxi下的自己建立的.icons(ctrl+H)文件夹
 ```
 * git clone https://github.com/vinceliuice/WhiteSur-wallpapers.git
 * cd WhiteSur-wallpapers/
