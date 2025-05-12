@@ -1,5 +1,7 @@
 https://www.bilibili.com/video/BV1qNd4YSEMS/?spm_id_from=333.337.search-card.all.click&vd_source=ee200f7e09eb8dbc8631c991d8917853
 https://bsdayo.moe/posts/ubuntu-desktop-mac-style/
+
+https://vercel.fallingsakura.top/f24024d4.html#Beautify
 * sudo apt install timeshift -y
 ```
 打开软件，设定的用户项选最右边，然后创建一个
