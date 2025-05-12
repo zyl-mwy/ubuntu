@@ -32,6 +32,9 @@ WantedBy=multi-user.target
 ```
 * sudo systemctl daemon-reload
 * sudo systemctl enable mount-ntfs.service
+## desktop error
+* dconf reset -f /org/gnome/
+* sudo apt install --reinstall ubuntu-desktop gnome-shell
 
 
 
