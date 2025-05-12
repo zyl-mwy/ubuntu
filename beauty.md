@@ -95,6 +95,7 @@ network stats
 * forge
 * gnome fuzzy app search
 * app menu is back
+* logo menu
 * 
 * dash to panel
 * add to desktop
