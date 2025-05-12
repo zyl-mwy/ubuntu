@@ -87,6 +87,7 @@ coverflow alt-tab
 ```
 下载拓展
 dash to dock
+dash2cock animated
 network stats
 ```
 
