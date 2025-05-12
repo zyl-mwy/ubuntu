@@ -91,4 +91,4 @@ network stats
 
 ## 拓展
 * hide top bar
-* 
+* blur my shell
