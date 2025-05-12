@@ -1,6 +1,15 @@
 ## 进不去桌面，gnome出问题
 * sudo apt install --reinstall ubuntu-desktop
 * sudo reboot
+## ubuntu磁盘修复
+1. ubuntu
+* sudo apt update
+* sudo apt install ntfs-3g
+* sudo ntfsfix -d /dev/nvme0n1p3
+2. windows
+* chkdsk /f X:
+
+
 ## ubuntu硬盘挂载不上
 * lsblk
 * sudo blkid /dev/nvme0n1p3
