@@ -99,6 +99,8 @@ network stats
 * app menu is back
 * logo menu
 * Quick setting Tweaker
+* Compiz alike magic lamp effect
+* Compiz windows effect
 * 
 * dash to panel
 * add to desktop
