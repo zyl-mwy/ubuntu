@@ -93,6 +93,8 @@ network stats
 * hide top bar
 * blur my shell
 * forge
+* gnome fuzzy app search
+* app menu is back
 * 
 * dash to panel
 * add to desktop
