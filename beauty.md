@@ -87,3 +87,8 @@ coverflow alt-tab
 dash to dock
 network stats
 ```
+
+
+## 拓展
+* hide top bar
+* 
