@@ -96,7 +96,7 @@ network stats
 * gnome fuzzy app search
 * app menu is back
 * logo menu
-* QSTweak
+* Quick setting Tweaker
 * 
 * dash to panel
 * add to desktop
