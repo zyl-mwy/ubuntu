@@ -98,3 +98,4 @@ network stats
 * 
 * dash to panel
 * add to desktop
+* custom window control
