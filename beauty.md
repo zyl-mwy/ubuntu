@@ -108,6 +108,7 @@ network stats
 * Vitals
 * Rounded Window Corners
 * Burn My Windows
+* Desktop Cube
 * 
 * dash to panel
 * add to desktop
