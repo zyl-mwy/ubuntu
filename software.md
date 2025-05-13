@@ -134,6 +134,7 @@ https://flathub.org/
 * sudo dpkg -i xxx*.deb
 * sudo dpkg -r xxx
 * sudo dpkt -P xxx
+* dpkg --list | grep yed
 
 ## fix2
 
