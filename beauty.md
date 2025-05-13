@@ -104,6 +104,7 @@ network stats
 * Compiz windows effect
 * Clipboard Indicator
 * GSConnect
+* Impatience
 * 
 * dash to panel
 * add to desktop
