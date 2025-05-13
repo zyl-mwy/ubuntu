@@ -226,6 +226,24 @@ Pin: release o=LP-PPA-mozillateam
 Pin-Priority: 501
 ```
 
+## 卸载edge
+* sudo apt remove --purge microsoft-edge-stable
+* rm -rf ~/.config/microsoft-edge
+* rm -rf ~/.cache/microsoft-edge
+* sudo rm -f /etc/apt/sources.list.d/microsoft-edge.list
+* sudo rm -f /usr/share/keyrings/microsoft-edge.gpg
+* sudo apt autoremove
+
+## 卸载virtualbox
+* sudo apt-get remove --purge virtualbox-\*
+* sudo apt-get autoremove
+* sudo rm -rf ~/.config/VirtualBox/
+* sudo rm -rf ~/.VirtualBox/
+* sudo rm -rf /etc/vbox/
+* sudo rm -rf ~/VirtualBox VMs/
+* sudo dpkg -r virtualbox-<version>
+* virtualbox --version
+
 ## common
 * latex
 * wps
