@@ -103,6 +103,7 @@ network stats
 * Compiz alike magic lamp effect
 * Compiz windows effect
 * Clipboard Indicator
+* GSConnect
 * 
 * dash to panel
 * add to desktop
