@@ -102,6 +102,7 @@ network stats
 * Quick setting Tweaker
 * Compiz alike magic lamp effect
 * Compiz windows effect
+* Clipboard Indicator
 * 
 * dash to panel
 * add to desktop
