@@ -105,6 +105,7 @@ network stats
 * Clipboard Indicator
 * GSConnect
 * Impatience
+* Vitals
 * 
 * dash to panel
 * add to desktop
