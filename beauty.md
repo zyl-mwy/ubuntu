@@ -106,6 +106,7 @@ network stats
 * GSConnect
 * Impatience
 * Vitals
+* Rounded Window Corners
 * 
 * dash to panel
 * add to desktop
