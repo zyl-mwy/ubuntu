@@ -109,7 +109,8 @@ network stats
 * Rounded Window Corners
 * Burn My Windows
 * Desktop Cube
-* 
+
+* Space Bar
 * dash to panel
 * add to desktop
 * custom window control
