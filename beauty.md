@@ -107,6 +107,7 @@ network stats
 * Impatience
 * Vitals
 * Rounded Window Corners
+* Burn My Windows
 * 
 * dash to panel
 * add to desktop
