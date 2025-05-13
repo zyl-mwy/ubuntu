@@ -271,6 +271,7 @@ Pin-Priority: 501
 * timeshift
 * yEd Graph Editor
 * qq
+* 安卓模拟器 https://www.linzhuotech.com/Product/download
 
 ## 系统安装
 * efi系统分区 500MB
