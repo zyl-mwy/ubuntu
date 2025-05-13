@@ -270,6 +270,7 @@ Pin-Priority: 501
 * anaconda
 * timeshift
 * yEd Graph Editor
+* qq
 
 ## 系统安装
 * efi系统分区 500MB
