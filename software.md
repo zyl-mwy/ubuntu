@@ -302,7 +302,7 @@ Pin-Priority: 501
 * dpkg -L python2.7
 * whereis python2.7
 * where python2.7
-* sudo find / -type f -name "*python2.7*" 2>/dev/null
+* sudo find / -type f -name "\*python2.7\*" 2>/dev/null
 * sudo find /usr/local -type f -name "*python2.7*" 2>/dev/null
 
 ## windows
