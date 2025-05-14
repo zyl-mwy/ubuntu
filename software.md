@@ -283,6 +283,10 @@ Pin-Priority: 501
 * 全局菜单项：/usr/share/applications/
 * 个人菜单项：~/.local/share/applications/
 
+## 软件安装位置
+* /opt
+* /usr/local
+
 ## windows
 * win32diskmanager
 * rufus
