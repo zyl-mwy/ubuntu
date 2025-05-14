@@ -245,6 +245,16 @@ Pin-Priority: 501
 * sudo dpkg -r virtualbox-<version>
 * virtualbox --version
 
+## 卸载python2.7
+* which python2.7
+* sudo find /usr/local -name "*python2.7*"
+* sudo rm -rf /usr/local/lib/python2.7/
+* sudo rm -f /usr/local/bin/python2.7*
+* sudo rm -f /usr/local/bin/python2*  # 如果存在
+* sudo rm -rf /usr/local/share/doc/python2.7/
+* sudo rm -rf /usr/local/share/examples/python2.7/
+* which python2.7
+
 ## common
 * latex
 * wps
