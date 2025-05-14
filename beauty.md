@@ -114,3 +114,17 @@ network stats
 * dash to panel
 * add to desktop
 * custom window control
+
+# kubuntu
+## 安装
+* sudo apt install kubuntu-desktop
+## 卸载
+* sudo apt remove kubuntu-desktop plasma-desktop
+* sudo apt autoremove  # 自动移除不再需要的依赖包
+* sudo apt purge plasma* kde* sddm  # 移除 KDE 相关包及其配置文件
+* sudo apt autoremove --purge       # 清理残留配置
+* sudo apt remove kate konsole dolphin kcalc  # 示例：删除常见 KDE 应用
+* ps aux | grep -i plasma
+* sudo rm /usr/share/xsessions/plasma*.desktop
+* sudo apt --fix-broken install
+* sudo apt install ubuntu-desktop  # 确保 GNOME 核心组件完整
