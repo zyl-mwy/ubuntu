@@ -142,3 +142,7 @@ network stats
 * sudo apt purge sddm
 * sudo apt install gdm3  # 或 lightdm
 * sudo dpkg-reconfigure gdm3
+
+## 主题文件夹
+* ~/.icons/
+* /usr/share/icons/
