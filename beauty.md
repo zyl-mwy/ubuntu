@@ -128,3 +128,17 @@ network stats
 * sudo rm /usr/share/xsessions/plasma*.desktop
 * sudo apt --fix-broken install
 * sudo apt install ubuntu-desktop  # 确保 GNOME 核心组件完整
+
+* sudo update-alternatives --config default.plymouth
+* sudo plymouth-set-default-theme ubuntu-logo
+* sudo update-initramfs -u
+* sudo apt purge plymouth-theme-kubuntu-logo plymouth-theme-kubuntu-text
+* ls /usr/share/plymouth/themes/
+* sudo rm -rf /usr/share/plymouth/themes/kubuntu-*
+* sudo apt autoremove --purge
+* sudo update-initramfs -u
+
+* sudo apt install --reinstall lightdm-gtk-greeter
+* sudo apt purge sddm
+* sudo apt install gdm3  # 或 lightdm
+* sudo dpkg-reconfigure gdm3
