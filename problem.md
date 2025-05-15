@@ -36,5 +36,8 @@ WantedBy=multi-user.target
 * dconf reset -f /org/gnome/
 * sudo apt install --reinstall ubuntu-desktop gnome-shell
 
+## 磁盘整理
+* sudo apt-get install e2fsprogs
+* sudo e4defrag /
 
 
