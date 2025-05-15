@@ -146,3 +146,7 @@ network stats
 ## 主题文件夹
 * ~/.icons/
 * /usr/share/icons/
+
+## 光标主题
+* git clone https://github.com/vinceliuice/WhiteSur-cursors.git
+* ./install.sh
