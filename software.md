@@ -282,11 +282,12 @@ Pin-Priority: 501
 * yEd Graph Editor
 * qq
 * 安卓模拟器 https://www.linzhuotech.com/Product/download
-* ev录屏
+* 录屏
 ```
 sudo add-apt-repository ppa:obsproject/obs-studio
 sudo apt install obs-studio
 ```
+* 任务中心
 
 ## 系统安装
 * efi系统分区 500MB
