@@ -288,6 +288,7 @@ sudo add-apt-repository ppa:obsproject/obs-studio
 sudo apt install obs-studio
 ```
 * 任务中心
+* flix
 
 ## 系统安装
 * efi系统分区 500MB
