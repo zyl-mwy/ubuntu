@@ -258,6 +258,15 @@ Pin-Priority: 501
 * sudo rm -rf /usr/local/share/examples/python2.7/
 * which python2.7
 
+## 卸载flatpak
+* flatpak uninstall --all
+* sudo apt remove flatpak
+* sudo flatpak remote-delete flathub
+* rm -rf ~/.local/share/flatpak
+* sudo rm -rf /var/lib/flatpak
+* sudo apt autoremove
+* flatpak --version
+
 ## common
 * latex
 * wps
