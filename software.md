@@ -291,6 +291,7 @@ sudo apt install obs-studio
 * flix
 * AI工具
 * vlc
+* 玲珑应用商店
 
 ## 系统安装
 * efi系统分区 500MB
