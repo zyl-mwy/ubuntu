@@ -287,7 +287,7 @@ Pin-Priority: 501
 sudo add-apt-repository ppa:obsproject/obs-studio
 sudo apt install obs-studio
 ```
-* 任务中心
+* 任务中心/系统监视中心
 * flix
 
 ## 系统安装
