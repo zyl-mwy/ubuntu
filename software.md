@@ -304,6 +304,10 @@ sudo apt install obs-studio
 * AI工具
 * vlc
 * 玲珑应用商店
+* clash-verge
+```
+https://github.com/zzzgydi/clash-verge/releases/
+```
 
 ## 系统安装
 * efi系统分区 500MB
