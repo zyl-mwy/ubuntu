@@ -40,4 +40,8 @@ WantedBy=multi-user.target
 * sudo apt-get install e2fsprogs
 * sudo e4defrag /
 
+## 系统日志
+* /var/log
+* 
+
 
