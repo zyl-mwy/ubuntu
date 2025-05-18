@@ -41,10 +41,12 @@ WantedBy=multi-user.target
 * sudo e4defrag /
 
 ## 系统日志
-* 日志保存位置
-```
-/var/log
-```
-* 
+### 日志保存位置
+* /var/log
+### 日志系统
+* 软件包: rsyslog
+* 主要程序: /sbin/rsyslogd
+* 配置文件: /etc/rsyslog.conf
+
 
 
