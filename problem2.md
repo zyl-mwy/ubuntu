@@ -193,26 +193,35 @@ sudo chroot /mnt
 # 备份关键配置文件
 sudo tar czvf config_backup.tar.gz /etc /var/lib/dpkg /var/lib/apt/extended_states
 ```
-$
+# Ubuntu系统故障排查流程图
+
+```mermaid
 graph TD
     A[系统故障] --> B{能否启动?}
     B -->|能| C[进入系统排查]
     B -->|不能| D[进入恢复模式/使用Live CD]
+    
     C --> E{资源问题?}
-    E -->|CPU| F[top/htop]
-    E -->|内存| G[free/vmstat]
-    E -->|磁盘| H[df/du]
+    E -->|CPU| F[使用top/htop检查]
+    E -->|内存| G[使用free/vmstat检查]
+    E -->|磁盘| H[使用df/du检查]
+    
     C --> I{服务问题?}
-    I --> J[systemctl status]
-    I --> K[journalctl -u]
+    I --> J[systemctl status检查]
+    I --> K[journalctl -u检查]
+    
     C --> L{网络问题?}
-    L --> M[ip/ifconfig]
-    L --> N[ping/traceroute]
-    L --> O[netstat/ss]
+    L --> M[ip/ifconfig检查]
+    L --> N[ping/traceroute检查]
+    L --> O[netstat/ss检查]
+    
     C --> P{硬件问题?}
-    P --> Q[dmesg]
-    P --> R[smartctl]
-$
+    P --> Q[dmesg检查]
+    P --> R[smartctl检查]
+    
+    D --> S[fsck修复文件系统]
+    D --> T[mount重新挂载]
+    D --> U[dpkg修复包]
 
 
 
