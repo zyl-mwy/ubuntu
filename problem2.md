@@ -40,6 +40,8 @@ sudo journalctl -p err -b  # 本次启动的错误
 # 查看特定服务的日志
 sudo journalctl -u nginx --since "1 hour ago"
 ```
+2. 关键日志文件
+```
 # 系统主日志
 tail -f /var/log/syslog
 
@@ -52,7 +54,10 @@ cat /var/log/kern.log
 
 # 启动日志
 cat /var/log/boot.log
-
+```
+## 三、服务管理
+### 1. 服务状态检查
+```
 # 列出所有服务状态
 systemctl list-units --type=service --all
 
@@ -61,7 +66,7 @@ systemctl --failed
 
 # 检查服务依赖关系
 systemctl list-dependencies nginx
-
+```
 # 查看服务状态详情
 systemctl status nginx -l
 
