@@ -309,6 +309,8 @@ sudo apt install obs-studio
 ```
 https://github.com/zzzgydi/clash-verge/releases/
 ```
+* bleachbit
+* fslint
 
 ## 系统安装
 * efi系统分区 500MB
