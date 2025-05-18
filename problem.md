@@ -41,7 +41,10 @@ WantedBy=multi-user.target
 * sudo e4defrag /
 
 ## 系统日志
-* /var/log
+* 日志保存位置
+```
+/var/log
+```
 * 
 
 
