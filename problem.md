@@ -47,6 +47,10 @@ WantedBy=multi-user.target
 * 软件包: rsyslog
 * 主要程序: /sbin/rsyslogd
 * 配置文件: /etc/rsyslog.conf
+### 日志级别
+* 0 EMERG (紧急) : 会导致主机系统不可用的情况
+* 1 ALERT (警告) : 必须马上采取措施解决问题
+* 
 
 
 
