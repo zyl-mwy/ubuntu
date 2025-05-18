@@ -37,6 +37,38 @@ WantedBy=multi-user.target
 ## 删除自定义服务
 * sudo rm /etc/systemd/system/my-service.service
 * sudo systemctl daemon-reload
+##  列出所有已安装的服务
+* systemctl list-unit-files --type=service --all
+## 查看正在运行的服务
+* systemctl list-units --type=service --state=running
+## 查看服务用途
+* systemctl cat redis-server.service | grep Description
+## 停止服务
+* sudo systemctl stop apache2
+## 禁止开机自启
+* sudo systemctl disable apache2
+## 彻底删除服务
+### 方法 1：通过 apt 卸载关联软件包（推荐）
+* dpkg -S /lib/systemd/system/<service名>.service # 查找服务对应软件包
+* sudo apt purge <软件包名>
+### 方法 2：手动删除服务文件
+* sudo rm /etc/systemd/system/<service名>.service # # 删除服务文件
+* sudo rm /etc/systemd/system/multi-user.target.wants/<service名>.service # 删除可能存在的符号链接
+* sudo systemctl daemon-reload
+## 清理残留文件和配置
+* sudo find / -name "*<service名>*"
+* sudo rm -rf /etc/<service名> /var/lib/<service名>
+## 检查是否彻底删除
+* systemctl list-unit-files | grep <service名>
+* which <服务主程序>
+## 备份配置
+* sudo cp -r /etc/systemd/system/<service名>.service ~/backup/
+## 自动化清理建议
+* sudo apt install deborphan
+* sudo deborphan | xargs sudo apt purge -y
+
+
+
 ## 注意事项
 * 不要直接修改 /lib/systemd/system/ 下的文件
 这些文件会被 apt 包管理器覆盖，应使用 /etc/systemd/system/ 下的覆盖配置。
