@@ -18,7 +18,8 @@ vmstat 1
 iostat -xz 1
 iotop  # 需安装 iotop
 ```
-
+2. 存储空间检查
+```
 # 检查磁盘空间
 df -hT
 
@@ -28,8 +29,8 @@ df -i
 # 查找大文件
 sudo du -sh /* | sort -rh
 sudo du -sh /var/* | sort -rh
-
-
+```
+## 二、日志分析
 # 查看系统日志
 sudo journalctl -xe
 sudo journalctl -p err -b  # 本次启动的错误
