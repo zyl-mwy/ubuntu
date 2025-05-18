@@ -56,6 +56,9 @@ WantedBy=multi-user.target
 * 5 NOTICE (注意) : 不会影响系统但值得注意
 * 6 INFO (信息) : 一般信息
 * 7 DEBUG (调试) : 程序或系统调试信息等
+### 查看日志
+* more /xxx
+* gnome-logs
 
 
 
