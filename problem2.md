@@ -1,7 +1,7 @@
 # Ubuntu 系统故障排查指南
 当 Ubuntu 系统出现问题时，系统化的排查方法能帮助你快速定位和解决问题。以下是详细的故障排查流程：
 ## 一、基础系统状态检查
-1. 系统资源检查
+### 1. 系统资源检查
 ```bash
 # 查看系统负载
 uptime
@@ -18,7 +18,7 @@ vmstat 1
 iostat -xz 1
 iotop  # 需安装 iotop
 ```
-2. 存储空间检查
+### 2. 存储空间检查
 ```
 # 检查磁盘空间
 df -hT
@@ -31,13 +31,15 @@ sudo du -sh /* | sort -rh
 sudo du -sh /var/* | sort -rh
 ```
 ## 二、日志分析
+### 1. 系统日志
+```
 # 查看系统日志
 sudo journalctl -xe
 sudo journalctl -p err -b  # 本次启动的错误
 
 # 查看特定服务的日志
 sudo journalctl -u nginx --since "1 hour ago"
-
+```
 # 系统主日志
 tail -f /var/log/syslog
 
