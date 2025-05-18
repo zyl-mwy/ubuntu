@@ -37,5 +37,9 @@ WantedBy=multi-user.target
 ## 删除自定义服务
 * sudo rm /etc/systemd/system/my-service.service
 * sudo systemctl daemon-reload
-
+## 注意事项
+* 不要直接修改 /lib/systemd/system/ 下的文件
+这些文件会被 apt 包管理器覆盖，应使用 /etc/systemd/system/ 下的覆盖配置。
+* 修改后必须重载 systemd, 及 sudo systemctl daemon-reload
+* 检查服务依赖关系，及 systemctl list-dependencies <服务名>
 
