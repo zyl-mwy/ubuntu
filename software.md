@@ -310,6 +310,10 @@ sudo apt install obs-studio
 https://github.com/zzzgydi/clash-verge/releases/
 ```
 * bleachbit
+* steam++
+```
+curl -sSL https://steampp.net/Install/Linux.sh | bash
+```
 * fslint
 
 ## 系统安装
