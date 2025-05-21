@@ -39,6 +39,8 @@ WantedBy=multi-user.target
 ## 磁盘整理
 * sudo apt-get install e2fsprogs
 * sudo e4defrag /
+## 开机引导项问题
+* sudo update-grub
 
 ## 系统日志
 ### 日志保存位置
