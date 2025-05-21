@@ -314,6 +314,7 @@ https://github.com/zzzgydi/clash-verge/releases/
 ```
 curl -sSL https://steampp.net/Install/Linux.sh | bash
 ```
+* kdeconnect
 * fslint
 
 ## 系统安装
