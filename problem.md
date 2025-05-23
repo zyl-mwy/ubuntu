@@ -35,6 +35,9 @@ WantedBy=multi-user.target
 ## desktop error
 * dconf reset -f /org/gnome/
 * sudo apt install --reinstall ubuntu-desktop gnome-shell
+## 中英文用户文件夹混乱
+* LC_ALL=C xdg-user-dirs-update --force
+* LANG=zh_CN.UTF-8 xdg-user-dirs-update --force
 
 ## 磁盘整理
 * sudo apt-get install e2fsprogs
