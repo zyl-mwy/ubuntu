@@ -45,6 +45,11 @@ WantedBy=multi-user.target
 ## 开机引导项问题
 * sudo update-grub
 
+## 多屏幕无法镜像
+* sudo apt install --reinstall libgl1-mesa-dri mesa-vulkan-drivers xserver-xorg-video-intel
+* rm ~/.config/monitors.xml
+* sudo rm /var/lib/gdm3/.config/monitors.xml
+
 ## 系统日志
 ### 日志保存位置
 * /var/log
