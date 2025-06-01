@@ -349,6 +349,7 @@ curl -sSL https://steampp.net/Install/Linux.sh | bash
 ## 常用软件打开命令
 * nautilus 文件管理器
 * gnome-control-center 设置
+* gnome-system-monitor 任务中心
 
 ## reset apt
 * sudo apt purge gnome-terminal -y  # 彻底删除配置和软件包
