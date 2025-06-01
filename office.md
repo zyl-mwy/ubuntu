@@ -8,6 +8,8 @@
 本地安装介质
 名称改为RPDWindows
 勾选安装前自定义
+CPU数那里XML删除<cpu>那里的<timer name="rtc" tickpolicy="catchup"/> 和 <timer name="pit" tickpolicy="delay"/> 删除
+                          <timer name="hpet" present="no"/> 的 no 改为 yes
 ```
 
 
