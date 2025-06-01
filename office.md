@@ -12,6 +12,7 @@ CPU数那里XML删除<cpu>那里的<timer name="rtc" tickpolicy="catchup"/> 和 
                           <timer name="hpet" present="no"/> 的 no 改为 yes
 引导选项 自动启动勾选上
 NIC  设备型号改为virtio
+SATA磁盘1  磁盘总线改为virtio
 ```
 
 
