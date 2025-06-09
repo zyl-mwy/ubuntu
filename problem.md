@@ -50,6 +50,15 @@ WantedBy=multi-user.target
 * rm ~/.config/monitors.xml
 * sudo rm /var/lib/gdm3/.config/monitors.xml
 
+## ibus-libpinyin出问题
+* ibus restart
+* sudo apt update
+* sudo apt upgrade
+* sudo apt install --reinstall ibus-libpinyin
+* sudo apt install -f
+* rm -rf ~/.cache/ibus ~/.config/ibus
+* ibus-daemon -drx
+
 ## 系统日志
 ### 日志保存位置
 * /var/log
