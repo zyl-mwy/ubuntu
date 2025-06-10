@@ -202,3 +202,17 @@ y = $(subst 1,2,$(x))
 z = y
 a := $($($(z)))
 ```
+
+```
+first_second = Hello
+a = first
+b = second
+all = $($a_$b)
+```
+
+```
+a_objects := a.o b.o c.o
+1_objects := 1.o 2.o 3.o
+
+sources := $($(a1)_objects:.o=.c)
+```
