@@ -120,6 +120,22 @@ littleoutput : text.g
 	generate text.g -little > littleoutput
 ```
 
+* 静态模式
+```
+objects = foo.o bar.o
+
+all: $(objects)
+
+$(objects): %.o: %.c
+	$(CC) -c $(CFLAGS) $< -o $@
+```
+等价于
+```
+foo.o : foo.c
+	$(CC) -c $(CFLAGS) foo.c -o foo.o
+bar.o : bar.c
+	$(CC) -c $(CFLAGS) bar.c -o bar.o
+```
 
 
 
