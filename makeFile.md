@@ -102,4 +102,15 @@ clean :
 	rm edit $(objects)
 ```
 
+* 清空目标文件的规则
+```
+clean:
+	rm edit $(objects)
+```
+
+```
+.PHONY : clean
+clean :
+	-rm edit $(objects)
+```
 
