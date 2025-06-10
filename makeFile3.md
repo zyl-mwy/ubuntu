@@ -20,3 +20,14 @@ exec:
 clean:
 	-rm -f *.o
 ```
+
+* 嵌套运行make
+```
+subsystem:
+	cd subdir && $(MAKE)
+```
+等效于：
+```
+subsystem:
+	$(MAKE) -C subdir
+```
