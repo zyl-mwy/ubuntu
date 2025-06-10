@@ -84,3 +84,23 @@ endef
 foo.c : foo.y
 	$(run-yacc)
 ```
+
+* 变量的基础
+```
+objects = program.o foo.o utils.o
+program : $(objects)
+	cc -o program $(objects)
+
+$(objects) : defs.h
+```
+
+```
+foo = c
+prog.o : prog.$(foo)
+$(foo)$(foo) -$(foo) prog.$(foo)
+```
+
+```
+prog.o : prog.c
+	cc -c prog.c
+```
