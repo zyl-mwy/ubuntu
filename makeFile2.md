@@ -17,3 +17,8 @@ targets : prerequisites ; command
     ...
 ```
 
+* 在规则中使用通配符
+```
+clean:
+rm -f *.o
+```
