@@ -155,5 +155,11 @@ $(filter %.elc,$(files)): %.elc: %.el
     rm -f $@.$$$$
 ```
 
+```
+sources = foo.c bar.c
+include $(sources:.c=.d)
+```
+
+
 
 
