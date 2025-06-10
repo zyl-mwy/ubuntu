@@ -216,3 +216,52 @@ a_objects := a.o b.o c.o
 
 sources := $($(a1)_objects:.o=.c)
 ```
+
+```
+ifdef do_sort
+	func := sort
+else
+	func := strip
+endif
+
+bar := a d b g q c
+
+foo := $($(func) $(bar))
+```
+
+```
+dir = foo
+$(dir)_sources := $(wildcard $(dir)/*.c)
+    define $(dir)_print
+    lpr $($(dir)_sources)
+	endef
+```
+
+* 追加变量值
+```
+objects = main.o foo.o bar.o utils.o
+objects += another.o
+```
+等效于：
+```
+objects = main.o foo.o bar.o utils.o
+objects := $(objects) another.o
+```
+
+```
+variable := value
+variable += more
+```
+等效于：
+```
+variable := value
+variable := $(variable) more
+```
+
+```
+variable = value
+variable += more
+```
+
+
+
