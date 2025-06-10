@@ -74,4 +74,10 @@ clean:
 	rm *.o temp
 ```
 
+```
+.PHONY: clean
+clean:
+	rm *.o temp
+```
+
 
