@@ -146,5 +146,14 @@ $(filter %.elc,$(files)): %.elc: %.el
 	emacs -f batch-byte-compile $<
 ```
 
+* 自己主动生成依赖性
+```
+%.d: %.c
+	@set -e; rm -f $@; \
+    $(CC) -M $(CPPFLAGS) $< > $@.$$$$; \
+    sed 's,/($*/)/.o[ :]*,/1.o $@ : ,g' < $@.$$$$ > $@; \
+    rm -f $@.$$$$
+```
+
 
 
