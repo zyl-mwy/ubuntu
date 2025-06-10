@@ -14,3 +14,9 @@ exec:
 exec:
 	cd /home/hchen; pwd
 ```
+
+* 命令出错
+```
+clean:
+	-rm -f *.o
+```
