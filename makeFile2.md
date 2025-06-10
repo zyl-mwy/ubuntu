@@ -68,4 +68,10 @@ vpath %.c foo:bar
 vpath % blish
 ```
 
+* 伪目标
+```
+clean:
+	rm *.o temp
+```
+
 
