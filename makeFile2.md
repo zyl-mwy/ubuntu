@@ -137,7 +137,14 @@ bar.o : bar.c
 	$(CC) -c $(CFLAGS) bar.c -o bar.o
 ```
 
+```
+files = foo.elc bar.o lose.o
 
+$(filter %.o,$(files)): %.o: %.c
+	$(CC) -c $(CFLAGS) $< -o $@
+$(filter %.elc,$(files)): %.elc: %.el
+	emacs -f batch-byte-compile $<
+```
 
 
 
