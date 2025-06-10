@@ -163,3 +163,18 @@ ifeq ($(origin FOO), undefined)
 FOO = bar
 endif
 ```
+
+* 变量高级使用方法
+```
+foo := a.o b.o c.o
+bar := $(foo:.o=.c)
+```
+
+```
+foo := a.o b.o c.o
+bar := $(foo:%.o=%.c)
+```
+
+
+
+
