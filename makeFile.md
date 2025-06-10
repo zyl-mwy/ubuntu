@@ -114,3 +114,15 @@ clean :
 	-rm edit $(objects)
 ```
 
+* 引用其他的Makefile
+```
+include <filename>
+```
+
+```
+include foo.make *.mk $(bar)
+```
+
+```
+include foo.make a.mk b.mk c.mk e.mk f.mk
+```
