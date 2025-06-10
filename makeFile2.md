@@ -22,3 +22,17 @@ targets : prerequisites ; command
 clean:
 rm -f *.o
 ```
+
+```
+print: *.c
+    lpr -p $?
+    touch print
+```
+
+```
+objects = *.o
+```
+
+```
+objects := $(wildcard *.o)
+```
