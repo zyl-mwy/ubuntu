@@ -57,4 +57,15 @@ vpath
 vpath %.h ../headers
 ```
 
+```
+vpath %.c foo
+vpath % blish
+vpath %.c bar
+```
+
+```
+vpath %.c foo:bar
+vpath % blish
+```
+
 
