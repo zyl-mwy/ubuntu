@@ -104,3 +104,34 @@ $(foo)$(foo) -$(foo) prog.$(foo)
 prog.o : prog.c
 	cc -c prog.c
 ```
+
+* 变量中的变量
+```
+foo = $(bar)
+bar = $(ugh)
+ugh = Huh?
+
+all:
+	echo $(foo)
+```
+
+```
+CFLAGS = $(include_dirs) -O
+include_dirs = -Ifoo -Ibar
+```
+
+```
+x := foo
+y := $(x) bar
+x := later
+```
+等效于：
+```
+y := foo bar
+x := later
+```
+
+```
+y := $(x) bar
+x := foo
+```
