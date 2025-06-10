@@ -71,3 +71,16 @@ export variable
 subsystem:
 	cd subdir && $(MAKE) MAKEFLAGS=
 ```
+
+* 定义命令包
+```
+define run-yacc
+yacc $(firstword $^)
+mv y.tab.c $@
+endef
+```
+
+```
+foo.c : foo.y
+	$(run-yacc)
+```
