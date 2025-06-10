@@ -175,6 +175,30 @@ foo := a.o b.o c.o
 bar := $(foo:%.o=%.c)
 ```
 
+```
+x = y
+y = z
+a := $($(x))
+```
 
+```
+x = y
+y = z
+z = u
+a := $($($(x)))
+```
 
+```
+x = $(y)
+y = z
+z = Hello
+a := $($(x))
+```
 
+```
+x = variable1
+variable2 := Hello
+y = $(subst 1,2,$(x))
+z = y
+a := $($($(z)))
+```
