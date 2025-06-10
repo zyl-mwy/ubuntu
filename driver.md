@@ -54,4 +54,6 @@ clean:
 * sudo rmmod helloworld
 * dmesg | tail  # 查看卸载信息
 
+* /usr/src/linux-source-*/Documentation
+
 * cp /usr/src/linux-source-4.15.0/drivers/leds/leds-gpio.c .
