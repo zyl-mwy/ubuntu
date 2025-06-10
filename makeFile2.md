@@ -107,4 +107,21 @@ cleandiff :
 	rm *.diff
 ```
 
+* 多目标
+```
+bigoutput littleoutput : text.g
+generate text.g -$(subst output,,$@) > $@
+```
+上述规则等效于：
+```
+bigoutput : text.g
+	generate text.g -big > bigoutput
+littleoutput : text.g
+	generate text.g -little > littleoutput
+```
+
+
+
+
+
 
