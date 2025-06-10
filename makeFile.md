@@ -1,3 +1,5 @@
+https://www.cnblogs.com/troy-daniel/p/GNUMakeChineseDocumentation.html
+
 * makeFile规则
 ```
 target ... : prerequisites ...
