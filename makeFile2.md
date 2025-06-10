@@ -36,3 +36,20 @@ objects = *.o
 ```
 objects := $(wildcard *.o)
 ```
+
+* 文件搜寻
+```
+VPATH = src:../headers
+```
+
+```
+vpath <pattern> <directories>
+为符合模式<pattern>的文件指定搜索文件夹<directories>。
+
+vpath <pattern>
+清除符合模式<pattern>的文件的搜索文件夹。
+
+vpath
+清除全部已被设置好了的文件搜索文件夹。
+```
+
