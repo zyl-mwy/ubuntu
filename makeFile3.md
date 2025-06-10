@@ -263,5 +263,66 @@ variable = value
 variable += more
 ```
 
+* override 指示符
+```
+override <variable> = <value>
+override <variable> := <value>
+```
+
+```
+override <variable> += <more text>
+```
+
+```
+override define foo
+bar
+endef
+```
+
+* 多行变量
+```
+define two-lines
+echo foo
+echo $(bar)
+endef
+```
+
+```
+# --------------------------------------------------------------------------------
+# Troy_Daniel 2019-02-13 17:22	Wed
+
+
+bar := This is the value of variable \"bar\"
+define two-lines
+	@echo foo
+	@echo $(bar)
+endef
+all:
+	$(two-lines)
+```
+
+* 目标变量
+```
+<target ...> : <variable-assignment>
+<target ...> : overide <variable-assignment>
+```
+
+```
+prog : CFLAGS = -g
+prog : prog.o foo.o bar.o
+	$(CC) $(CFLAGS) prog.o foo.o bar.o
+
+prog.o : prog.c
+	$(CC) $(CFLAGS) prog.c
+
+foo.o : foo.c
+	$(CC) $(CFLAGS) foo.c
+
+bar.o : bar.c
+	$(CC) $(CFLAGS) bar.c
+```
+
+
+
 
 
