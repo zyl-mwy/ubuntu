@@ -94,4 +94,17 @@ prog3 : prog3.o sort.o utils.o
 	cc -o prog3 prog3.o sort.o utils.o
 ```
 
+```
+.PHONY: cleanall cleanobj cleandiff
+
+cleanall : cleanobj cleandiff
+	rm program
+
+cleanobj :
+	rm *.o
+
+cleandiff :
+	rm *.diff
+```
+
 
