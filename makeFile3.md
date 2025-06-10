@@ -135,3 +135,12 @@ x := later
 y := $(x) bar
 x := foo
 ```
+
+```
+ifeq (0,${MAKELEVEL})
+cur-dir := $(shell pwd)
+whoami := $(shell whoami)
+host-type := $(shell arch)
+MAKE := ${MAKE} host-type=${host-type} whoami=${whoami}
+endif
+```
