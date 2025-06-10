@@ -322,6 +322,15 @@ bar.o : bar.c
 	$(CC) $(CFLAGS) bar.c
 ```
 
+* 模式变量
+```
+%.o : CFLAGS = -O
+```
+
+```
+<pattern ...> : <variable-assignment>
+<pattern ...> : override <variable-assignment>
+```
 
 
 
