@@ -144,3 +144,22 @@ host-type := $(shell arch)
 MAKE := ${MAKE} host-type=${host-type} whoami=${whoami}
 endif
 ```
+
+```
+nullstring :=
+space := $(nullstring) # end of the line
+```
+
+```
+dir := /foo/bar # directory to put the frobs in
+```
+
+```
+FOO ?= bar
+```
+等价于：
+```
+ifeq ($(origin FOO), undefined)
+FOO = bar
+endif
+```
