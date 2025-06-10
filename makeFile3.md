@@ -66,3 +66,8 @@ export variable += value
 variable += value
 export variable
 ```
+
+```
+subsystem:
+	cd subdir && $(MAKE) MAKEFLAGS=
+```
