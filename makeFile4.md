@@ -158,3 +158,23 @@ $(filter-out $(mains),$(objects))
 ```
 $(sort <list> )
 ```
+
+```
+$(word <n>,<text> )
+```
+
+```
+$(wordlist <s>,<e>,<text> )
+```
+
+```
+$(words <text> )
+```
+
+```
+$(firstword <text> )
+```
+
+```
+override CFLAGS += $(patsubst %,-I%,$(subst :, ,$(VPATH)))
+```
