@@ -31,3 +31,38 @@ subsystem:
 subsystem:
 	$(MAKE) -C subdir
 ```
+
+```
+export <variable ...>
+```
+
+```
+unexport <variable ...>
+```
+
+```
+export variable = value
+```
+等效于：
+```
+variable = value
+export variable
+```
+等效于：
+```
+export variable := value
+```
+等效于：
+```
+variable := value
+export variable
+```
+
+```
+export variable += value
+```
+等效于：
+```
+variable += value
+export variable
+```
