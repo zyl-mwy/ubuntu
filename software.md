@@ -268,6 +268,12 @@ Pin-Priority: 501
 * sudo apt autoremove
 * flatpak --version
 
+## 卸载xdroid
+* sudo rm -rf /opt/xdroid
+* rm -rf ~/xdroid
+* rm -rf ~/.xdroid
+* rm -rf /usr/share/applications/xDroid.desktop
+
 ## common
 * latex
 * wps
