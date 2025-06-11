@@ -169,13 +169,15 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 * sudo -l | grep ^rc |awk '{print $2}' | sudo xargs dpkg -P
 * sudo apt autoremove 
 * sudo apt autoclean 
-* sudo apt clearn
+* sudo apt clean
 * dpkg -l|grep ^rc|awk '{print $2}' |sudo xargs dpkg -P
 ​* rm -rfv ~/.wine
 * ls .local/share/applications/
 * ls .config/menus/applications-merged/
 * ls .local/share/icons/
 * sudo find / -name *wine*
+
+* sudo rm -rf opt/deepinwine
 
 * sudo rm /etc/apt/sources.list.d/winehq-*.list
 * sudo apt update
@@ -274,6 +276,7 @@ Pin-Priority: 501
 * rm -rf ~/.xdroid
 * rm -rf ~/.zhuoyi
 * rm -rf /usr/share/applications/xDroid.desktop
+* ls /usr/src
 
 ## common
 * latex
