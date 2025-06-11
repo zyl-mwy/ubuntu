@@ -124,7 +124,7 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 * 注销
 * 键盘布局
 
-
+/usr/share/applications
 ## apt/apt-get install/uninstall 
 * sudo apt search xxx
 * sudo apt-get install xxx
@@ -272,6 +272,7 @@ Pin-Priority: 501
 * sudo rm -rf /opt/xdroid
 * rm -rf ~/xdroid
 * rm -rf ~/.xdroid
+* rm -rf ~/.zhuoyi
 * rm -rf /usr/share/applications/xDroid.desktop
 
 ## common
