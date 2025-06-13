@@ -281,6 +281,8 @@ Pin-Priority: 501
 * cd /lib/systemd/system/
 * sudo rm -rf xdroid*
 * sudo systemctl daemon-reload
+* cd /etc/udev/rules.d
+* sudo rm -rf \*xdroid\*
 
 ## common
 * latex
