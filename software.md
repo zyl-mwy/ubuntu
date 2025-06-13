@@ -280,6 +280,7 @@ Pin-Priority: 501
 * sudo rm -rf \*xdroid\*
 * cd /lib/systemd/system/
 * sudo rm -rf xdroid*
+* sudo systemctl daemon-reload
 
 ## common
 * latex
