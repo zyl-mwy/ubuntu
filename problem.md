@@ -59,6 +59,9 @@ WantedBy=multi-user.target
 * rm -rf ~/.cache/ibus ~/.config/ibus
 * ibus-daemon -drx
 
+## 双系统时间不同步
+* sudo timedatectl set-local-rtc 1
+
 ## 系统日志
 ### 日志保存位置
 * /var/log
