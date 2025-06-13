@@ -9,6 +9,7 @@
 * ip.addr == 192.168.44.1 && HTTP && tcp.port == 80 
 * 作为过滤器应用 且选中
 * 作为过滤器应用 选中 将“==”改为“contains”
+* http2
 ### 捕获过滤器
 
 ## practice
