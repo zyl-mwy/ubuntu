@@ -278,6 +278,8 @@ Pin-Priority: 501
 * rm -rf /usr/share/applications/xDroid.desktop
 * cd /usr/src
 * sudo rm -rf \*xdroid\*
+* cd /lib/systemd/system/
+* sudo rm -rf xdroid*
 
 ## common
 * latex
