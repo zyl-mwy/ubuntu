@@ -53,5 +53,7 @@ sudo apt install fonts-noto-cjk-extra fonts-roboto fonts-cascadia-code fonts-fir
 sudo apt install timeshift
 ```
 
+https://hs.cnies.org/archives/ubuntu2404-optimize#%E4%BC%98%E5%8C%96
+
 
 
