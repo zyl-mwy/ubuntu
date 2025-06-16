@@ -337,6 +337,18 @@ curl -sSL https://steampp.net/Install/Linux.sh | bash
 ```
 * kdeconnect
 * fslint
+*  QEMU + KVM 虚拟机
+```
+LC_ALL=C lscpu | grep Virtualization
+egrep -c '(vmx|svm)' /proc/cpuinfo
+
+sudo apt install qemu qemu-kvm virt-manager bridge-utils
+
+sudo useradd -g $USER libvirt
+sudo useradd -g $USER libvirt-kvm
+
+sudo systemctl enable libvirtd.service && sudo systemctl start libvirtd.service
+```
 
 ## 系统安装
 * efi系统分区 500MB
