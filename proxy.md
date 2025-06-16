@@ -38,6 +38,10 @@ TCPFastOpen：保持系统默认
 
 
 
+https://devpn.github.io/docs/start/ubuntu/clash/
+
+
+
 
 
 
