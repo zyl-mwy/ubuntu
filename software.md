@@ -284,6 +284,11 @@ Pin-Priority: 501
 * cd /etc/udev/rules.d
 * sudo rm -rf \*xdroid\*
 
+## 卸载tlp
+* sudo apt remove --purge tlp tlp-rdw
+* sudo apt install power-profiles-daemon  # 确保默认电源管理服务已安装
+* sudo systemctl restart power-profiles-daemon
+
 ## common
 * latex
 * wps
