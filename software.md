@@ -372,3 +372,12 @@ curl -sSL https://steampp.net/Install/Linux.sh | bash
 * sudo apt autoremove -y  # 删除不再需要的依赖项
 * rm -rf ~/.config/dconf/user  # 重置 GNOME Terminal 配置（谨慎操作！）
 * sudo apt update && sudo apt install gnome-terminal -y
+
+## 添加或卸载软件源头
+### 添加
+* sudo add-apt-repository ppa:wireshark-dev/stable
+### 删除
+* sudo add-apt-repository --remove ppa:wireshark-dev/stable
+或者
+* cd /etc/apt/sources.list.d
+* sudo rm wireshark-dev-ubuntu-stable-*.list
