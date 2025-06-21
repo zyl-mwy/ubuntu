@@ -381,6 +381,9 @@ sudo systemctl enable libvirtd.service && sudo systemctl start libvirtd.service
 
 ## 常用软件打开命令
 * nautilus 文件管理器
+```
+nautilus admin:/
+```
 * gnome-control-center 设置
 * gnome-system-monitor 任务中心
 
