@@ -62,6 +62,15 @@ WantedBy=multi-user.target
 ## 双系统时间不同步
 * sudo timedatectl set-local-rtc 1
 
+## 更新错误
+```
+W: 校验数字签名时出错。此仓库未被更新，所以仍然使用此前的索引文件。GPG 错误：https://apt.v2raya.org v2raya InRelease: GPG: add_keyblock_resource 33587281  GPG: keydb_search 33554445  GPG: keydb_search 33554445
+W: 无法下载 https://apt.v2raya.org/dists/v2raya/InRelease  GPG: add_keyblock_resource 33587281  GPG: keydb_search 33554445  GPG: keydb_search 33554445
+W: 部分索引文件下载失败。如果忽略它们，那将转而使用旧的索引文件
+```
+* sudo rm /etc/apt/sources.list.d/v2raya.list
+* sudo rm /etc/apt/sources.list.d/v2raya.list.save
+
 ## 系统日志
 ### 日志保存位置
 * /var/log
