@@ -9,11 +9,12 @@ https://zotero-chinese.com/plugins/
 * Jasminum
 
 * Ethereal Style
-
+```
+shift + P
+```
 
 * Awesome GPT
 
 * Magic for Zotero
-```
-shift + P
-```
+
+* Ethereal Reference
