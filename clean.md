@@ -11,3 +11,21 @@
 * sudo snap refresh --list   # 查看可更新的 Snap
 * sudo snap remove --purge <包名>  # 彻底删除 Snap 包
 * flatpak uninstall --unused  # 删除未使用的运行时
+
+
+* sudo apt autoremove
+* sudo apt autoclean
+* sudo apt clean
+* sudo journalctl --vacuum-time=3d
+* rm -rf ~/.cache/thumbnails/*
+* sudo apt install bleachbit
+* sudo apt install stacer
+
+* sudo add-apt-repository ppa:gerardpuig/ppa
+* sudo apt update
+* sudo apt install ubuntu-cleaner
+
+* sudo apt remove package-name1 package-name2
+
+* sudo apt install fdupes
+* fdupes -r /path/to/directory
