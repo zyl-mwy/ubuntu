@@ -349,6 +349,10 @@ sudo useradd -g $USER libvirt-kvm
 
 sudo systemctl enable libvirtd.service && sudo systemctl start libvirtd.service
 ```
+* psensor
+```
+sudo apt install -y psensor
+```
 
 ## 系统安装
 * efi系统分区 500MB
