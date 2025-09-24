@@ -289,6 +289,12 @@ Pin-Priority: 501
 * sudo apt install power-profiles-daemon  # 确保默认电源管理服务已安装
 * sudo systemctl restart power-profiles-daemon
 
+## 卸载qt
+* rm -rf ~/.config/QtProject*
+* rm -rf ~/.local/share/data/QtProject
+* sudo rm -rf /opt/Qt*
+* sudo rm -rf /usr/local/Qt*
+
 ## common
 * latex
 * wps
