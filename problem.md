@@ -91,5 +91,39 @@ W: 部分索引文件下载失败。如果忽略它们，那将转而使用旧�
 * more /xxx
 * gnome-logs
 
+### 关机很慢
+* 查看关机内容
+```bash
+sudo vim /etc/default/grub
+```
+将
+```
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
+```
+改为
+```
+GRUB_CMDLINE_LINUX_DEFAULT=""
+```
+然后更新grub
+```
+sudo update-grub
+```
 
-
+* 修改关机文件
+```bash
+sudo vim /etc/systemd/system.conf 
+```
+修改一下内容
+```
+#DefaultTimeoutStartSec=90s
+#DefaultTimeoutStopSec=90s
+```
+为
+```
+DefaultTimeoutStartSec=3s   #这个最好不要启用，启用后可能出现fstab中的硬盘不能自动挂载，grub菜单不能隐藏的问题
+DefaultTimeoutStopSec=1s  # 将#去掉，90改为1
+```
+最后加载修改的配置
+```bash
+systemctl daemon-reload
+```
