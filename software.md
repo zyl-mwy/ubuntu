@@ -293,7 +293,10 @@ Pin-Priority: 501
 * rm -rf ~/.config/QtProject*
 * rm -rf ~/.local/share/data/QtProject
 * sudo rm -rf /opt/Qt*
-* sudo rm -rf /usr/local/Qt*
+* sudo rm -rf /usr/local/Qt* 
+
+## 卸载gnome浏览器
+* sudo apt autopurge epiphany-browser
 
 ## common
 * latex
