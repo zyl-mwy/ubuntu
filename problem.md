@@ -127,3 +127,15 @@ DefaultTimeoutStopSec=1s  # 将#去掉，90改为1
 ```bash
 systemctl daemon-reload
 ```
+
+### 双系统切换
+#### 修改一次即可
+* sudo nano /etc/default/grub
+```
+GRUB_DEFAULT=saved
+GRUB_SAVEDEFAULT=true
+```
+* sudo update-grub
+
+* sudo grub-reboot <Windows的条目号>
+* sudo reboot
