@@ -136,6 +136,6 @@ GRUB_DEFAULT=saved
 GRUB_SAVEDEFAULT=true
 ```
 * sudo update-grub
-
+#### 需要切换的时候运行这个
 * sudo grub-reboot <Windows的条目号>
 * sudo reboot
