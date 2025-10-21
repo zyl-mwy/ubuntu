@@ -91,7 +91,7 @@ W: 部分索引文件下载失败。如果忽略它们，那将转而使用旧�
 * more /xxx
 * gnome-logs
 
-### 关机很慢
+## 关机很慢
 * 查看关机内容
 ```bash
 sudo vim /etc/default/grub
@@ -128,14 +128,22 @@ DefaultTimeoutStopSec=1s  # 将#去掉，90改为1
 systemctl daemon-reload
 ```
 
-### 双系统切换
-#### 修改一次即可
+## 双系统切换
+### 修改一次即可
 * sudo nano /etc/default/grub
 ```
 GRUB_DEFAULT=saved
 GRUB_SAVEDEFAULT=true
 ```
 * sudo update-grub
-#### 需要切换的时候运行这个
+### 需要切换的时候运行这个
 * sudo grub-reboot <Windows的条目号>
 * sudo reboot
+
+## v2ray卸载后update残余
+* cd /etc/apt/sources.list.d/
+* ls -la | grep v2raya
+* sudo rm v2raya.list v2raya.list.save
+* cd /etc/apt/trusted.gpg.d/
+* sudo rm v2raya.asc v2raya.asc.save
+* sudo apt update
