@@ -25,6 +25,7 @@ After=network.target
 Type=oneshot
 ExecStart=/bin/mount -t ntfs /dev/nvme0n1p3 /media/linxi
 # sudo mount -t ntfs-3g -o rw,uid=1000,gid=1000,umask=022 /dev/nvme1n1p2 /media/linxi-ice/other1
+# ExecStart=/bin/bash -c '/bin/mount -t ntfs /dev/nvme0n1p3 /media/linxi || /bin/mount -t ntfs /dev/nvme1n1p3 /media/linxi'
 TimeoutSec=0
 RemainAfterExit=yes
 
