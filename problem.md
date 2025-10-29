@@ -9,6 +9,9 @@
 2. windows
 * chkdsk /f X:
 
+## 外置机械硬盘挂载不上
+* sudo mount -t ntfs-3g /dev/sda2 /media/linxi/KESU
+
 
 ## ubuntu硬盘挂载不上
 * lsblk
