@@ -154,5 +154,5 @@ GRUB_SAVEDEFAULT=true
 * sudo apt update
 
 ## qml配置
-export PATH=$PATH:/home/linxi/Qt/6.9.3/gcc_64/bin
-alias qml='/home/linxi/Qt/6.9.3/gcc_64/bin/qml'
+* export PATH=$PATH:/home/linxi/Qt/6.9.3/gcc_64/bin
+* alias qml='/home/linxi/Qt/6.9.3/gcc_64/bin/qml'
