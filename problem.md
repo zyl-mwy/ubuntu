@@ -152,3 +152,7 @@ GRUB_SAVEDEFAULT=true
 * cd /etc/apt/trusted.gpg.d/
 * sudo rm v2raya.asc v2raya.asc.save
 * sudo apt update
+
+## qml配置
+export PATH=$PATH:/home/linxi/Qt/6.9.3/gcc_64/bin
+alias qml='/home/linxi/Qt/6.9.3/gcc_64/bin/qml'
