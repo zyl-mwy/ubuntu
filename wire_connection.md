@@ -8,5 +8,31 @@ network:
       dhcp4: no
       addresses: [192.168.10.2/24]
 ```
+
+```
+network:
+  version: 2
+  ethernets:
+    eth0:
+      dhcp4: yes  # 开启DHCP
+      dhcp4-overrides:
+        route-metric: 100  # 设置路由优先级（数字越小优先级越高）
+      addresses: [192.168.10.2/24]  # 同时设置静态IP
+      dhcp4: false  # 实际使用静态IP，这行会覆盖上面的dhcp4: yes
+      
+  wifis:
+    wlan0:
+      optional: true
+      dhcp4: true
+      dhcp4-overrides:
+        route-metric: 200  # WiFi优先级较低
+      regulatory-domain: "CN"
+      access-points:
+        "linxi":
+          hidden: true
+          auth:
+            key-management: "psk"
+            password: "489da4c177223ab9c12b8141c739f3836e114525dd712b0ad0cae53224865e70"
+```
 * sudo netplan apply
 * ip addr
