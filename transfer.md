@@ -2,6 +2,10 @@
 
 * scp XXX.doc nvidia@172.23.100.201:~
 
+### 报错修复
+* ssh-keygen -f "/home/linxi-ice/.ssh/known_hosts" -R "192.168.10.2"
+
+
 
 
 ## 完整的Samba共享文件夹设置流程
