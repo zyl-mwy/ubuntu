@@ -362,6 +362,20 @@ sudo systemctl enable libvirtd.service && sudo systemctl start libvirtd.service
 ```
 sudo apt install -y psensor
 ```
+* cursor
+```
+https://cursor.com/cn/docs/downloads
+
+https://cursor.com/cn/agents
+
+# 添加 Cursor 的 GPG 密钥
+curl -fsSL https://downloads.cursor.com/keys/anysphere.asc | gpg --dearmor | sudo tee /etc/apt/keyrings/cursor.gpg > /dev/null
+# 添加 Cursor 软件源
+echo "deb [arch=amd64,arm64 signed-by=/etc/apt/keyrings/cursor.gpg] https://downloads.cursor.com/aptrepo stable main" | sudo tee /etc/apt/sources.list.d/cursor.list > /dev/null
+# 更新并安装
+sudo apt update
+sudo apt install cursor
+```
 
 ## 系统安装
 * efi系统分区 500MB
