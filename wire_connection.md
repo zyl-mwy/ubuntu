@@ -1,3 +1,5 @@
+### 方法1
+
 * sudo nano /etc/netplan/50-cloud-init.yaml
 ```
 network:
@@ -36,3 +38,28 @@ network:
 ```
 * sudo netplan apply
 * ip addr
+
+
+### 方法2
+#### 固定ip
+* nmcli con show
+
+* sudo nmcli con mod "Wired connection 1" ipv4.addresses "192.168.10.2/24"
+* sudo nmcli con mod "Wired connection 1" ipv4.gateway "192.168.10.1"
+* sudo nmcli con mod "Wired connection 1" ipv4.method manual
+
+* sudo nmcli con mod "Wired connection 1" ipv4.dns "8.8.8.8 8.8.4.4"
+* sudo nmcli con mod "Wired connection 1" ipv6.method ignore
+
+* sudo nmcli con down "Wired connection 1" && sudo nmcli con up "Wired connection 1"
+
+* ip a
+* ip r
+
+#### 解除固定ip
+* sudo nmcli con mod "Wired connection 1" ipv4.method auto
+* sudo nmcli con mod "Wired connection 1" ipv4.gateway ""
+* sudo nmcli con mod "Wired connection 1" ipv4.addresses ""
+* sudo nmcli con mod "Wired connection 1" ipv4.dns ""
+* sudo nmcli con down "Wired connection 1"
+* sudo nmcli con up "Wired connection 1"
