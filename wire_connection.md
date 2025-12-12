@@ -1,3 +1,4 @@
+## 固定ip
 ### 方法1
 
 * sudo nano /etc/netplan/50-cloud-init.yaml
@@ -63,3 +64,9 @@ network:
 * sudo nmcli con mod "Wired connection 1" ipv4.dns ""
 * sudo nmcli con down "Wired connection 1"
 * sudo nmcli con up "Wired connection 1"
+
+## 设定mtu
+* sudo ip link set dev eth0 down
+* sudo ip link set dev eth0 mtu 2500
+* sudo ip link set dev eth0 up
+* ip link show eth0 | grep mtu
