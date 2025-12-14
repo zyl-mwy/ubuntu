@@ -37,6 +37,7 @@ network:
             key-management: "psk"
             password: "489da4c177223ab9c12b8141c739f3836e114525dd712b0ad0cae53224865e70"
 ```
+* sudo netplan try
 * sudo netplan apply
 * ip addr
 
