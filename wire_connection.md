@@ -68,7 +68,12 @@ network:
 * sudo nmcli con up "Wired connection 1"
 
 ## 设定mtu
+### 短期
 * sudo ip link set dev eth0 down
 * sudo ip link set dev eth0 mtu 2500
 * sudo ip link set dev eth0 up
 * ip link show eth0 | grep mtu
+### 长期
+* sudo nano /etc/netplan/50-cloud-init.yaml
+* mtu: 2500
+* sudo netplan try
