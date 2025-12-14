@@ -40,6 +40,7 @@ network:
 * sudo netplan try
 * sudo netplan apply
 * ip addr
+* ip link show
 
 
 ### 方法2
