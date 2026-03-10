@@ -156,3 +156,12 @@ GRUB_SAVEDEFAULT=true
 ## qml配置
 * export PATH=$PATH:/home/linxi/Qt/6.9.3/gcc_64/bin
 * alias qml='/home/linxi/Qt/6.9.3/gcc_64/bin/qml'
+
+## ubuntu update 多源（amd,arm）打架，无法正常更新
+* dpkg --print-architecture
+* dpkg --print-foreign-architectures
+
+* sudo dpkg --remove-architecture arm64
+* sudo dpkg --remove-architecture armhf
+* sudo apt clean
+* sudo apt update
