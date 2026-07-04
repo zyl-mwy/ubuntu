@@ -15,5 +15,6 @@ source ~/anaconda3/bin/activate
 * sudo reboot
 * sudo apt install nvidia-cuda-toolkit
 * nvcc -V
+* conda config --add envs_dirs /run/media/linxi-ice/新加卷/software/conda_env/
 
 
